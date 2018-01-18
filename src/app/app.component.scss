@@ -1,0 +1,19 @@
+.spin-me-baby {
+    animation: spin 4s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.zoom-me-baby {
+    animation: zoom 4s linear infinite;
+}
+@keyframes zoom {
+    50% {
+        font-size: 2em;
+    }
+    100% {
+        font-size: 1em;
+    }
+}
